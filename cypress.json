@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://chartboost.bamboohr.com",
+  "env": {
+    "username": "your_email",
+    "password": "your_password",
+    "enterTime": "9:00",
+    "exitTime": "5:00"
+  },
+  "viewportHeight": 1280,
+  "viewportWidth": 1280
+}

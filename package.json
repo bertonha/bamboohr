@@ -1,0 +1,19 @@
+{
+  "name": "bamboohr",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "lint": "eslint --ext .js --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cypress": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "1.18.2"
+  }
+}
