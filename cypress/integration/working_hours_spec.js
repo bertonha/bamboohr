@@ -1,5 +1,5 @@
-describe('BambooHR', function() {
-  it('Fill all days', function() {
+describe('BambooHR', function () {
+  it('Fill all days', function () {
     cy.visit('/login.php')
 
     cy.get('.normal-login-link-container').click()
@@ -20,7 +20,7 @@ describe('BambooHR', function() {
           cy.get('.SimpleModal').within(() => {
             cy.get('ba-select > input')
               .last()
-              .then($elem => {
+              .then(($elem) => {
                 $elem.val('PM')
               })
             cy.get('.ClockField__formInput')
