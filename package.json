@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "cypress": "^13.6.6"
+    "cypress": "^15.15.0"
   },
   "devDependencies": {
     "eslint": "^8.46.0",
